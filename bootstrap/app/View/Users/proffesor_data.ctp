@@ -49,16 +49,11 @@
 					    		echo $proffesor['t']['start_hour'] .':' . $start_minute . ' - ' . $proffesor['t']['finish_hour'] .':' . $finish_minute;
 					    	?>
 					    </span>
+					    <span class="form-control text-center" style="overflow-y: auto; overflow-x: hidden"><?php
+							echo  $proffesor['t']['day'];
+						?></span>
 					    
-					 <div class="text-center" style="margin:0">
-						 <div class="btn btn-primary" style ="width:100%" >
-						 	<span>
-						 		<?php
-									echo $this->Html->link('enviar mensaje', array('controller' => 'messages', 'action' => 'add', '?' => array('name' => $name , 'surname' => $surname, 'receiver_id' => $proffesor['p']['id'], 'transmitter_id' => AuthComponent::user('id') )));
-								?>
-							</span>
-						</div>
-					</div>
+					 
 					<div class="input-group-addon">
 				    </div>
 				</div>
@@ -68,3 +63,14 @@
 	}
 	?>
 </div>
+</br>
+<div class="col-sm-3 col-md-4 col-lg-4"></div>
+<div class="text-center col-xs-12 col-sm-6 col-md-4 col-lg-4" >
+						 <div class="btn btn-primary" style ="width:100%" >
+						 	<span>
+						 		<?php
+									echo $this->Html->link('enviar mensaje', array('controller' => 'messages', 'action' => 'add', '?' => array('name' => $name , 'surname' => $surname, 'receiver_id' => $proffesor['p']['id'], 'transmitter_id' => AuthComponent::user('id') )));
+								?>
+							</span>
+						</div>
+					</div>
