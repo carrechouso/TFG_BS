@@ -28,8 +28,8 @@ $cakeVersion = __d('cake_dev', 'CakePHP %s', Configure::version())
 	<?php
 	
 
-		//echo $this->Html->css('cake.generic');
-		echo $this->Html->css(array('jquery-ui.css', 'bootstrap.min', 'bootstrap-theme.min'));
+		
+		echo $this->Html->css(array('cake.generic', 'jquery-ui.css', 'bootstrap.min', 'bootstrap-theme.min'));
 		echo $this->Html->script(array('jquery','jquery-ui', 'bootstrap.min', 'npm'));
 		echo $this->fetch('meta');
 		echo $this->fetch('css');
