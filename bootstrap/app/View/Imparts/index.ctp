@@ -12,15 +12,15 @@
 				    	<div class="input-group-addon">
 					    	<span class="glyphicon glyphicon-education "></span>
 					    </div>
-					   	<span class="form-control text-center" style="overflow-y: auto; overflow-x: hidden"><?php echo $row['a']['name']?></span>
-					   	<span class="form-control text-center" style="overflow-y: auto; overflow-x: hidden"><?php echo $row['p']['name'] . ' ' . $row['p']['surname'];?></span>
-					    <span class="form-control text-center" style="overflow-y: auto; overflow-x: hidden"><?php echo $row['a']['quarter'] . ' cuatrimestre ' . $row['a']['credits'] . ' créditos' ?></span>
+					   	<b><span class="form-control text-center" style="overflow-y: auto; overflow-x: hidden"><?php echo $row['a']['name']?></span></b>
+					   	<b><span class="form-control text-center" style="overflow-y: auto; overflow-x: hidden"><?php echo $row['p']['name'] . ' ' . $row['p']['surname'];?></span></b>
+					    <b><span class="form-control text-center" style="overflow-y: auto; overflow-x: hidden"><?php echo $row['a']['quarter'] . ' cuatrimestre ' . $row['a']['credits'] . ' créditos' ?></span></b>
 					   	
 					    <div class="input-group-addon">
 					    						   		
 					   		<?php
 					   			echo $this->Form->postLink(
-								   $this->Html->tag('i', '', array('class' => 'glyphicon glyphicon-remove')). " Eliminar",
+								   $this->Html->tag('i', '', array('class' => 'glyphicon glyphicon-remove btn btn-danger')). "",
 								        array('action' => 'delete', $row['i']['id']),
 								        array('escape'=>false),
 								    __('¿Dar de baja a el profesor %s %s en la asignatura %s?', $row['p']['name'], $row['p']['surname'], $row['a']['name']),
@@ -40,15 +40,14 @@
 				    	<div class="input-group-addon">
 					    	<span class="glyphicon glyphicon-education "></span>
 					    </div>
-					   	<span class="form-control text-center" style="overflow-y: auto; overflow-x: hidden"><?php echo $row['a']['name']?></span>
-					   	<span class="form-control text-center" style="overflow-y: auto; overflow-x: hidden"><?php echo $row['p']['name'] . ' ' . $row['p']['surname'];?></span>
-					    <span class="form-control text-center" style="overflow-y: auto; overflow-x: hidden"><?php echo $row['a']['quarter'] . ' cuatrimestre ' . $row['a']['credits'] . ' créditos' ?></span>
+					   	<b><span class="form-control text-center" style="overflow-y: auto; overflow-x: hidden"><?php echo $row['a']['name']?></span></b>
+					    <b><span class="form-control text-center" style="overflow-y: auto; overflow-x: hidden"><?php echo $row['a']['quarter'] . ' cuatrimestre ' . $row['a']['credits'] . ' créditos' ?></span></b>
 					   	
 					    <div class="input-group-addon">
 					    						   		
 					   		<?php
 					   			echo $this->Form->postLink(
-								   $this->Html->tag('i', '', array('class' => 'glyphicon glyphicon-remove')). " Eliminar",
+								   $this->Html->tag('i', '', array('class' => 'glyphicon glyphicon-remove btn btn-danger')). "",
 								        array('action' => 'delete', $row['i']['id']),
 								        array('escape'=>false),
 								    __('¿Dar de baja a el profesor %s %s en la asignatura %s?', $row['p']['name'], $row['p']['surname'], $row['a']['name']),

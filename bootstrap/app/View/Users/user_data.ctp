@@ -1,6 +1,6 @@
 <h1 align="center"> DATOS DEL  USUARIO</h1>
 
-
+<b>
 <div class="form-group  has-feedback">
     <span class="sr-only">Nombre</span>
     <div class="input-group">
@@ -141,6 +141,6 @@
 	}?>
 	</div>
 </div>
-
+</b>
 
 

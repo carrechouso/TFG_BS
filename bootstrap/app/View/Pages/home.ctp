@@ -15,5 +15,4 @@ rexistro
 non me acordo datos
 login
 paxina inicio
-falta o de envia mensaxe   
-de profesor darse de alta en asignatura
+css cake errores

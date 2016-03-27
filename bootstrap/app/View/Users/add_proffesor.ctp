@@ -1,6 +1,7 @@
 <h1 align="center"> REGISTRO Profesor</h1>
 <?php echo $this->Form->create('User', array('url' => array('controller' => 'users', 'action' => 'addProffesor'))) ;
 	 ?>
+	 <b>
 		<div class="form-group  has-feedback">
 		    <span class="sr-only">Nombre</span>
 		    <div class="input-group">
@@ -75,4 +76,4 @@
 	 		 echo $this->Form->End(array('label' => 'Crear nuevo profesor', 'class' => 'btn btn-primary col-xs-12 col-sm-offset-4 col-sm-4 col-md-offset-4 col-md-4 col-lg-offset-4 col-lg-4'));
 	 	?>
 	 </div>
-	
+	</b>

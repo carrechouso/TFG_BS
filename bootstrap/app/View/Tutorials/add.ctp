@@ -5,6 +5,7 @@
 	echo $this->Form->create('Tutorial', array('url' => array('controller' => 'tutorials', 'action' => 'add'))) ;
 	
 	?>
+	<b>
 	<div class="form-group  has-feedback">
 	    <span class="sr-only">Código de la asignatura</span>
 	    <div class="input-group">
@@ -56,7 +57,7 @@
 		    <span class="sr-only">Día</span>
 		    <div class="input-group">
 		    	<div class="input-group-addon">
-			    	<span class="">Día</span>
+			    	<b><span class="">Día</span></b>
 			    </div>
 			    
 				<div class="input-group-addon">
@@ -73,7 +74,7 @@
 		    <span class="sr-only">Hora inicio</span>
 		    <div class="input-group">
 		    	<div class="input-group-addon">
-			    	<span class="">Hora Inicio</span>
+			    	<b><span class="">Hora Inicio</span></b>
 			    </div>
 				<div class="input-group-addon">
 			    
@@ -95,7 +96,7 @@
 		    <span class="sr-only">Hora final</span>
 		    <div class="input-group">
 		    	<div class="input-group-addon">
-			    	<span class=""> Hora final&nbsp;&nbsp;</span>
+			    	<b><span class=""> Hora final&nbsp;&nbsp;</span></b>
 			    </div>
 				<div class="input-group-addon">
 			    
@@ -119,3 +120,4 @@
  			echo $this->Form->End(array('label' => 'Crear nueva tutoría', 'class' => 'btn btn-primary col-xs-12 col-sm-offset-4 col-sm-4 col-md-offset-4 col-md-4 col-lg-offset-4 col-lg-4' ));
 		?>	
 	</div>	
+</b>

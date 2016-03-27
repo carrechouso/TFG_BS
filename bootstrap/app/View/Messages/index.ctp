@@ -18,12 +18,12 @@
 				    	<div class="input-group-addon">
 					    	<span class="glyphicon glyphicon-education "></span>
 					    </div>
-					   	<span class="form-control text-center" style="overflow-y: auto; overflow-x: hidden"><?php echo 'Para: ' . $message['p']['name'] . ' ' . $message['p']['surname'];?></span>					   	
-					    <span class="form-control text-center" style="overflow-y: auto; overflow-x: hidden"><?php echo  $date[2] . '-' . $date[1] . '-' . $date[0] .' a las ' . $hour ; ?></span>
-					    
+					   	<b><span class="form-control text-center" style="overflow-y: auto; overflow-x: hidden"><?php echo 'Para: ' . $message['p']['name'] . ' ' . $message['p']['surname'];?></span></b>					   	
+					    <b><span class="form-control text-center" style="overflow-y: auto; overflow-x: hidden"><?php echo  $date[2] . '-' . $date[1] . '-' . $date[0] .' a las ' . $hour ; ?></span></b>
+					    <em>
 					   	<?php
 					   		echo $this->Form->textarea('notes', array('class' => 'form-control', 'escape' => true, 'readonly' => true, 'value' =>  $message['m']['message'], 'rows' => 5));
-					   	?>
+					   	?></em>
 					    
 					</div>
 				</div>
@@ -40,12 +40,13 @@
 				    	<div class="input-group-addon">
 					    	<span class="glyphicon glyphicon-education "></span>
 					    </div>
-					   	<span class="form-control text-center" style="overflow-y: auto; overflow-x: hidden"><?php echo 'Para: ' . $message['a']['name'] . ' ' . $message['a']['surname'];?></span>					   	
-					    <span class="form-control text-center" style="overflow-y: auto; overflow-x: hidden"><?php echo  $date[2] . '-' . $date[1] . '-' . $date[0] .' a las ' . $hour ; ?></span>
+					   	<b><span class="form-control text-center" style="overflow-y: auto; overflow-x: hidden"><?php echo 'Para: ' . $message['a']['name'] . ' ' . $message['a']['surname'];?></span></b>					   	
+					    <b><span class="form-control text-center" style="overflow-y: auto; overflow-x: hidden"><?php echo  $date[2] . '-' . $date[1] . '-' . $date[0] .' a las ' . $hour ; ?></span></b>
 					    
+					    <em>
 					   	<?php
 					   		echo $this->Form->textarea('notes', array('class' => 'form-control', 'escape' => true, 'readonly' => true, 'value' =>  $message['m']['message'], 'rows' => 5));
-					   	?>
+					   	?></em>
 					    
 					</div>
 				</div>
@@ -66,12 +67,14 @@
 					    	<div class="input-group-addon">
 						    	<span class="glyphicon glyphicon-education "></span>
 						    </div>
-						   	<span class="form-control text-center" style="overflow-y: auto; overflow-x: hidden"><?php echo 'De: ' . $message['a']['name'] . ' ' . $message['a']['surname'];?></span>					   	
-						    <span class="form-control text-center" style="overflow-y: auto; overflow-x: hidden"><?php echo  $date[2] . '-' . $date[1] . '-' . $date[0] .' a las ' . $hour ; ?></span>
+						   	<b><span class="form-control text-center" style="overflow-y: auto; overflow-x: hidden"><?php echo 'De: ' . $message['a']['name'] . ' ' . $message['a']['surname'];?></span></b>					   	
+						    <b><span class="form-control text-center" style="overflow-y: auto; overflow-x: hidden"><?php echo  $date[2] . '-' . $date[1] . '-' . $date[0] .' a las ' . $hour ; ?></span></b>
 						    
+						    <em>
 						   	<?php
 						   		echo $this->Form->textarea('notes', array('class' => 'form-control', 'escape' => true, 'readonly' => true, 'value' =>  $message['m']['message'], 'rows' => 5));
 						   	?>
+						   </em>
 						    <div class="input-group-addon">
 						    						   		
 						   		<?php
@@ -96,12 +99,15 @@
 						    	<div class="input-group-addon">
 							    	<span class="glyphicon glyphicon-education "></span>
 							    </div>
-							   	<span class="form-control text-center" style="overflow-y: auto; overflow-x: hidden"><?php echo 'De: ' . $message['p']['name'] . ' ' . $message['p']['surname'];?></span>					   	
-							    <span class="form-control text-center" style="overflow-y: auto; overflow-x: hidden"><?php echo  $date[2] . '-' . $date[1] . '-' . $date[0] .' a las ' . $hour ; ?></span>
+							   	<b>
+							   	<span class="form-control text-center" style="overflow-y: auto; overflow-x: hidden"><?php echo 'De: ' . $message['p']['name'] . ' ' . $message['p']['surname'];?></span></b>					   	
+							    <b><span class="form-control text-center" style="overflow-y: auto; overflow-x: hidden"><?php echo  $date[2] . '-' . $date[1] . '-' . $date[0] .' a las ' . $hour ; ?></span></b>
 							    
+							    <em>
 							   	<?php
 							   		echo $this->Form->textarea('notes', array('class' => 'form-control', 'escape' => true, 'readonly' => true, 'value' =>  $message['m']['message'], 'rows' => 5));
 							   	?>
+							   </em>
 							    <div class="input-group-addon">
 							    						   		
 							   		<?php

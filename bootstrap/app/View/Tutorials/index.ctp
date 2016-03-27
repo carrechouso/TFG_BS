@@ -33,11 +33,11 @@
 				    	<div class="input-group-addon">
 					    	<span class="glyphicon glyphicon-education "></span>
 					    </div>
-					   	<span class="form-control text-center" style="overflow-y: auto; overflow-x: hidden">Asignatura: <?php echo $row['Subject']['name']; ?></span>
-					   	<span class="form-control text-center" style="overflow-y: auto; overflow-x: hidden">Profesor: <?php echo $row['User']['name'] . ' ' .$row['User']['surname']; ?></span>
-					    <span class="form-control text-center" style="overflow-y: auto; overflow-x: hidden">Día: <?php echo $row['Tutorial']['day'];?></span>
-					    <span class="form-control text-center" style="overflow-y: auto; overflow-x: hidden">Horario: <?php echo $row['Tutorial']['start_hour']. ':' . $min_inicio. ' - ' . $row['Tutorial']['finish_hour']. ':' . $min_fin; ?></span>
-					    <span class="form-control text-center" style="overflow-y: auto; overflow-x: hidden">Lugar: <?php echo $row['Tutorial']['place'];?></span>
+					   	<b><span class="form-control text-center" style="overflow-y: auto; overflow-x: hidden"><?php echo $row['Subject']['name']; ?></span></b>
+					   	
+					    <b><span class="form-control text-center" style="overflow-y: auto; overflow-x: hidden"><?php echo $row['Tutorial']['day'];?></span></b>
+					    <b><span class="form-control text-center" style="overflow-y: auto; overflow-x: hidden"><?php echo $row['Tutorial']['start_hour']. ':' . $min_inicio. ' - ' . $row['Tutorial']['finish_hour']. ':' . $min_fin; ?></span></b>
+					    <b><span class="form-control text-center" style="overflow-y: auto; overflow-x: hidden"><?php echo $row['Tutorial']['place'];?></span></b>
 					 <div class="text-center" style="margin:0">
 						 <div class="btn btn-primary" style ="width:100%" >
 						 	<span>
@@ -74,17 +74,17 @@
 		}
 
 			?>
-								<div class="form-group  has-feedback col-xm-12 col-sm-6 col-md-6 col-lg-4">
+				<div class="form-group  has-feedback col-xm-12 col-sm-6 col-md-6 col-lg-4">
 				    <span class="sr-only">Datos del cambio puntual</span>
 				    <div class="input-group">
 				    	<div class="input-group-addon">
 					    	<span class="glyphicon glyphicon-education "></span>
 					    </div>
-					   	<span class="form-control text-center" style="overflow-y: auto; overflow-x: hidden">Asignatura: <?php echo $row['Subject']['name']; ?></span>
-					   	<span class="form-control text-center" style="overflow-y: auto; overflow-x: hidden">Profesor: <?php echo $row['User']['name'] . ' ' .$row['User']['surname']; ?></span>
-					    <span class="form-control text-center" style="overflow-y: auto; overflow-x: hidden">Día: <?php echo $row['Tutorial']['day'];?></span>
-					    <span class="form-control text-center" style="overflow-y: auto; overflow-x: hidden">Horario: <?php echo $row['Tutorial']['start_hour']. ':' . $min_inicio. ' - ' . $row['Tutorial']['finish_hour']. ':' . $min_fin; ?></span>
-					    <span class="form-control text-center" style="overflow-y: auto; overflow-x: hidden">Lugar: <?php echo $row['Tutorial']['place'];?></span>
+					   	<b><span class="form-control text-center" style="overflow-y: auto; overflow-x: hidden"><?php echo $row['Subject']['name']; ?></span></b>
+					   	<b><span class="form-control text-center" style="overflow-y: auto; overflow-x: hidden"><?php echo $row['User']['name'] . ' ' .$row['User']['surname']; ?></span></b>
+					    <b><span class="form-control text-center" style="overflow-y: auto; overflow-x: hidden"><?php echo $row['Tutorial']['day'];?></span></b>
+					    <b><span class="form-control text-center" style="overflow-y: auto; overflow-x: hidden"><?php echo $row['Tutorial']['start_hour']. ':' . $min_inicio. ' - ' . $row['Tutorial']['finish_hour']. ':' . $min_fin; ?></span></b>
+					    <b><span class="form-control text-center" style="overflow-y: auto; overflow-x: hidden"><?php echo $row['Tutorial']['place'];?></span></b>
 					 <div class="text-center" style="margin:0">
 						 <div class="btn btn-primary" style ="width:100%;" onclick="location.location.redirect'Tutorials/remove?id=<?php echo $row['Tutorial']['id'];?>';" >
 						 	<span>

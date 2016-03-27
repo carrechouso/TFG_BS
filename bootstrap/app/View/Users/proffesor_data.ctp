@@ -40,7 +40,7 @@
 				    	<div class="input-group-addon">
 					    	<span class="glyphicon glyphicon-education "></span>
 					    </div>
-					   	<span class="form-control text-center" style="overflow-y: auto; overflow-x: hidden"><?php echo $proffesor['a']['name'];?></span>
+					   	<b><span class="form-control text-center" style="overflow-y: auto; overflow-x: hidden"><?php echo $proffesor['a']['name'];?></span>
 					   	<span class="form-control text-center" style="overflow-y: auto; overflow-x: hidden"><?php
 							echo  $proffesor['t']['place'];
 						?></span>
@@ -51,7 +51,7 @@
 					    </span>
 					    <span class="form-control text-center" style="overflow-y: auto; overflow-x: hidden"><?php
 							echo  $proffesor['t']['day'];
-						?></span>
+						?></span></b>
 					    
 					 
 					<div class="input-group-addon">

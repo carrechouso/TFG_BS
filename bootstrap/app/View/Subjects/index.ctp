@@ -15,10 +15,10 @@
 				    	<div class="input-group-addon">
 					    	<span class="glyphicon glyphicon-education "></span>
 					    </div>
-					   	<span class="form-control text-center" style="overflow-y: auto; overflow-x: hidden"><?php echo $row['Subject']['name'];?></span>
+					   	<b><span class="form-control text-center" style="overflow-y: auto; overflow-x: hidden"><?php echo $row['Subject']['name'];?></span>
 					   	<span class="form-control text-center" style="overflow-y: auto; overflow-x: hidden"><?php echo$row['Subject']['quarter'];?></span>
 					    <span class="form-control text-center" style="overflow-y: auto; overflow-x: hidden"><?php echo $row['Subject']['credits'];?></span>
-					     <span class="form-control text-center" style="overflow-y: auto; overflow-x: hidden"><?php echo $row['Subject']['code'];?></span>
+					     <span class="form-control text-center" style="overflow-y: auto; overflow-x: hidden"><?php echo $row['Subject']['code'];?></span></b>
 					    <div class="input-group-addon">
 						
 							

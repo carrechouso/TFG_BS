@@ -13,6 +13,7 @@ $(function() {
 	
 	?>
 </br>
+<b>
 <div class = "row">
 	<div class="form-group  has-feedback col-xs-12 col-sm-6 col-md-6 vol-lg-6">
 	    <span class="sr-only">Fecha nueva</span>
@@ -108,4 +109,4 @@ $(function() {
 		echo $this->Form->End(array('label' => 'Confirmar cambio puntual tutoría', 'class' => 'btn btn-primary col-xs-12 col-sm-offset-4 col-sm-4 col-md-offset-4 col-md-4 col-lg-offset-4 col-lg-4'));	
 	?>
 </div>
-
+</b>

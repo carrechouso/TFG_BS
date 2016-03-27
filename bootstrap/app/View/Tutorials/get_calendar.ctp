@@ -21,6 +21,7 @@
 	    	<div class="input-group-addon">
 		    	<span class="glyphicon glyphicon-calendar "></span>
 		    </div>
+		    <b>
 		    <?php
 		    	echo $this->Form->input('startDate', array('class' => 'form-control text-center', 'id'=>'datepicker','type'=>'text', 'label' => '', 'placeholder' => 'Fecha de inicio del calendario'));
 		    ?>
@@ -73,4 +74,5 @@
 	echo $this->Form->end(array('label' => 'descargar calendario de las asignaturas seleccionadas', 'class' => 'btn btn-primary col-xs-12 col-sm-6 col-md-4 col-lg-4'));
 ?> 
 </div>
+</b>
 </div>
